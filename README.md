@@ -1,12 +1,11 @@
 # 🥇 논문(ASK 2025) : 2학기 ~ 겨울방학 (완료 ✔️)
-### :star: 주제 : 자율 주행 로봇의 경로 회피계획 알고리즘 
-### (→ 자율 주행 차량의 회피 경로 계획 시각화로 논문 주제 확정 ✔️)
+### 완료된 프로젝트
+
+### :star: 주제 : 자율 주행 로봇의 경로 회피계획 알고리즘 (→ 자율 주행 차량의 회피 경로 계획 시각화로 논문 주제 확정 ✔️)
 <h3>1. 데이터 셋</h3>
 
 - 자율 주행 : KITTI Vision Benchmark Suite | cityscapes dataset 사용 ✔️
 - 저작권 : Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License
-
-### - [Cirtscapes Dataset 출처] <br> M. Cordts, M. Omran, S. Ramos, T. Rehfeld, M. Enzweiler, R. Benenson, U. Franke, S. Roth, and B. Schiele, “The Cityscapes Dataset for Semantic Urban Scene Understanding,” in Proc. of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2016.
 
 <h3>2. 방법론 (이론 정리)</h3>
 <h4>🥈 깊이 영상은 사용하지 않을 예정 (일반 RGB 사진과 Lidar 데이터만)</h4><br>
@@ -45,8 +44,6 @@ Lidar 데이터를 2차원 깊이 영상으로 바꾼후 YOLO 검출, 이후 검
 - [깊이 영상 참고 사이트](https://velog.io/@happy_quokka/Sensor-Fusion-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-3.-LiDAR-Projection-%EA%B3%BC%EC%A0%95-%EB%B0%8F-%EA%B5%AC%ED%98%84-Open3D-Mayavi)
 - [KITTI 연구 대상 사이트](https://github.com/kuixu/kitti_object_vis?tab=readme-ov-file)
 
-데이터셋 연구중
-
 - [complex-yolov4](https://www.youtube.com/watch?v=F3IEobi7Li4)
 - [YOLO + DeepSORT : 경로 설계](https://www.youtube.com/watch?v=w80cToFgto8) <br><br>
 ##
@@ -70,15 +67,8 @@ Lidar 데이터를 2차원 깊이 영상으로 바꾼후 YOLO 검출, 이후 검
 4. 2차 회피 경로 계획
    - 1차 경로 (직선)에서 안전거리 침범시 직성 경로를 실시간 수정
 
-실험 예정
-- [x] : U-net + LSTM의 IOC
-- [x] : U-net과 LSTM과 DeepLab의 비교 (연산 시간과 경로 클래스 검출율, 안전거리 계산)
-- [x] : YOLO-DeepSORT의 IOC, 성능 지표
-- [x] : 3,4의 시각화
 
 <h3>참고 영상 (완료✔️)</h3>
 1. U-net 재학습 : https://www.youtube.com/watch?v=n4_ZuntLGjg <br>
 2. opencv : https://www.youtube.com/watch?v=iRTuCYx6quQ
 
-<h3>진행 중</h3>
-프로토 타입 프로젝트 완료 ✔️
